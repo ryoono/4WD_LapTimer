@@ -8,25 +8,18 @@ PC
 ```bash
 # インストールパッケージ
 $ pip install pyserial
+$ pip install inputimeout
 ```
 
 ```bash
 # 出力例
-$ python getTimeSerial.py 
-10:000
- 9:269
- 8:538
- 7:807
- 7:076
- 6:345
- 5:614
- 4:883
- 4:152
- 3:421
- 2:690
- 1:959
- 1:228
-10:497
- 9:766
- 9:035
+$ python getTimeSerial.py  
+
+ LAP TIME :    9:035
+      GAP :   +7:807
+BEST TIME :    1:228
+
+# 「R」＋Enterを入力するとBEST TIMEがリセットされる
+# ただし1秒ごとに画面をクリアしているので，
+# 1秒以内に急いで入力する必要あり
 ```
