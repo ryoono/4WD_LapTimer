@@ -6,6 +6,11 @@ Arduino
 PC  
 
 ```bash
+# インストールパッケージ
+$ pip install pyserial
+```
+
+```bash
 # 出力例
 $ python getTimeSerial.py 
 10:000
